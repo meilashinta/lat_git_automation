@@ -1,8 +1,7 @@
-"stylelint": {
-  "extends": "stylelint-config-standard",
-  "rules": {
-    "block-no-empty": null,
-    "unit-allowed-list": ["em", "rem", "%", "s", "px"],
-    "alpha-value-notation": ["percentage", { "exceptProperties": ["opacity"] }]
-  }
+{
+    "rules": {
+        "block-no-empty": null,
+        "unit-allowed-list": ["em", "rem", "%", "s", "px", "vh"], 
+        "alpha-value-notation": ["percentage", { "exceptProperties": ["opacity"] }]
+    }
 }
